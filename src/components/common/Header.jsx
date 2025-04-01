@@ -36,9 +36,9 @@ const Header = () => {
                         </ul>
                     ))}
                     <div className='md:hidden flex gap-2'>
-                        <Link target='_blank' className='hover:scale-110 duration-300 ease-in-out' href="https://discord.com/"><FooterDIscordIcon /> </Link>
-                        <Link target='_blank' className='hover:scale-110 duration-300 ease-in-out' href="https://twitter.com/"><FooterTwitterIcon /> </Link>
-                        <Link target='_blank' className='hover:scale-110 duration-300 ease-in-out' href="https://magiceden.io/"><FooterMagicedeneIcon /> </Link>
+                        <Link onClick={toggleSidebar} target='_blank' className='hover:scale-110 duration-300 ease-in-out' href="https://discord.com/"><FooterDIscordIcon /> </Link>
+                        <Link onClick={toggleSidebar} target='_blank' className='hover:scale-110 duration-300 ease-in-out' href="https://twitter.com/"><FooterTwitterIcon /> </Link>
+                        <Link onClick={toggleSidebar} target='_blank' className='hover:scale-110 duration-300 ease-in-out' href="https://magiceden.io/"><FooterMagicedeneIcon /> </Link>
                     </div>
                 </div>
                 </div>
