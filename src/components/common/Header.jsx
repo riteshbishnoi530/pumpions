@@ -23,9 +23,11 @@ const Header = () => {
         };
     }, [open]);
     return (
-        <div className='bg-[url("/assets/images/header-bg.webp")] bg-center bg-[length:100%] bg-no-repeat'>
-            <div className='flex justify-between items-center px-16 py-[30px]'>
-                <Link href="/"> <Image className='max-md:max-w-[27px]' src="/assets/images/logo.webp" alt="logo" width={41} height={47} /></Link>
+        <div>
+            
+            <div className='relative flex justify-between items-center px-16 max-md:px-8 max-sm:px-6 py-[15px]'>
+            <Image className='absolute left-0 max-w-[1140px] w-full h-full' src="/assets/images/header-bg.webp" alt='header' width={1140} height={76}/>
+                <Link className='relative z-1' href="/"> <Image className='max-md:max-w-[27px]' src="/assets/images/logo.webp" alt="logo" width={41} height={47} /></Link>
                 <div className={`flex gap-6 max-lg:flex-col max-lg:justify-center max-lg:items-center ${open ? 'max-lg:z-10 max-lg:translate-x-0 max-lg:bg-sky-950 max-lg:fixed max-lg:top-0 max-lg:left-0 max-lg:h-full max-lg:w-full duration-500 ease-linear blur-[80%] justify-center items-center' : 'max-lg:-left-full max-lg:hidden duration-500 ease-linear'}`}>
                     {HEADER_LIST.map((obj, i) => (
                         <ul key={i}>
@@ -40,7 +42,7 @@ const Header = () => {
                         <Link href="/"><Me /> </Link>
                     </div>
                 </div>
-                <div className='max-md:hidden max-lg:ml-auto flex gap-2'>
+                <div className='max-md:hidden relative z-1 max-lg:ml-auto flex gap-2'>
                     <Link href="/"><DiscordIcon /> </Link>
                     <Link href="/"><TwitterIcon /> </Link>
                     <Link href="/"><Me /> </Link>

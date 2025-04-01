@@ -11,7 +11,7 @@ const Faq = () => {
         setActive(active === index ? null : index);
     };
     return (
-        <div id='faq' className='-mt-0.5 bg-grey pt-[105px] pb-[170px] bg-[url("/assets/images/faq-bg-layer.webp")] bg-no-repeat bg-cover bg-top'>
+        <div id='faq' className='-mt-0.5 bg-grey pt-[105px] pb-[170px] max-md:pb-[140px] max-sm:pb-[49px] bg-[url("/assets/images/faq-bg-layer.webp")] bg-no-repeat bg-cover bg-top'>
                 <Heading headingClass="mb-[15px]" headingText="Faq"/>
             <div>
                 <div className='px-4'>

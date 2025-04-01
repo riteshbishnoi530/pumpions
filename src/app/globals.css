@@ -20,6 +20,10 @@
   }
 }
 
+.rfm-marquee{
+  min-width: fit-content !important;
+}
+
 .rfm-marquee-container{
-  gap: px;
+  gap: 26px ;
 }
