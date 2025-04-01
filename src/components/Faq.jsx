@@ -13,7 +13,6 @@ const Faq = () => {
     return (
         <div id='faq' className='-mt-0.5 bg-grey pt-[105px] pb-[170px] max-md:pb-[140px] max-sm:pb-[49px] bg-[url("/assets/images/faq-bg-layer.webp")] bg-no-repeat bg-cover bg-top'>
                 <Heading headingClass="mb-[15px]" text="Faq"/>
-            <div>
                 <div className='px-4'>
                     <div className="max-w-[735px] gap-6 flex flex-col mx-auto">
                         {FAQS_LIST.map((item, index) => (
@@ -33,7 +32,6 @@ const Faq = () => {
                     </div>
                 </div>
             </div>
-        </div>
     );
 }
 

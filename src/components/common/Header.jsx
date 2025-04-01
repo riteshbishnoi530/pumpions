@@ -22,9 +22,7 @@ const Header = () => {
             window.removeEventListener("resize", handleOverflow);
         };
     }, [open]);
-    return (
-        <div>
-            
+    return (  
             <div className='relative flex justify-between items-center px-16 max-md:px-8 max-sm:px-6 py-[15px] max-sm:py-[7px]'>
             <Image className='pointer-events-none absolute left-0 max-w-[1140px] w-full h-full' src="/assets/images/header-bg.webp" alt='header' width={1140} height={76}/>
             <div className='flex items-center gap-[18px]'>
@@ -55,7 +53,6 @@ const Header = () => {
                     <span className={`${open ? 'w-[42px] max-md:w-[30px] h-[5px] max-md:h-[3px] bg-white -rotate-45 -translate-y-3 max-md:-translate-y-[6px] duration-300 ease-linear rounded' : 'w-[21px] max-md:w-[15px] ml-auto h-[5px] max-md:h-[3px] bg-black duration-300 ease-linear'}`}></span>
                 </div>
             </div>
-        </div>
     )
 }
 
