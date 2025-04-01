@@ -5,7 +5,7 @@ import Description from './common/Description'
 
 function Pumpmap() {
   return (
-    <div className='-mt-0.5 bg-grey pt-[102px] pb-[183px] px-4'>
+    <div className='-mt-0.5 bg-grey pt-[102px] pb-[183px] max-sm:pt-[50px] max-sm:pb-[66px] px-4'>
         <div className='max-w-[1140px] mx-auto flex gap-[57px] items-center max-lg:flex-col-reverse'>
             <Image className='max-w-[407px] w-full' src="/assets/images/pumpmap-image.webp" alt='pumpmap'width={407} height={374}/>
             <div className='max-lg:max-w-[699px] mx-auto'>

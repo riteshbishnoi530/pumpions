@@ -12,7 +12,7 @@ function Footer() {
         <p className='max-w-[425px] max-sm:max-w-[198px] max-sm:text-[8px] mx-auto text-xs text-center text-white uppercase'>Suspendisse vestibulum a tellus sit amet mattis</p>
         <div className='flex gap-[11px] justify-center mt-6'>
             {FOOTER_MEDIA_LIST.map((item, index)=>(
-                <Link target='_blank' className='hover:scale-110 duration-300 ease-in-out' key={index} href="/">{item}</Link>
+                <Link target='_blank' className='hover:scale-110 duration-300 ease-in-out' key={index} href={item.link}>{item.item}</Link>
             ))}
         </div>
     </div>

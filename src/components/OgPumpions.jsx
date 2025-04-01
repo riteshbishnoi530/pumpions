@@ -15,7 +15,7 @@ function OgPumpions() {
     return (
         <div id='team' className='-mt-0.5 bg-grey'>
             <div className='max-w-[1140px] mx-auto'>
-                <Heading headingClass="mb-[79px]" headingText="OG PUMPIONS" />
+                <Heading headingClass="mb-[79px] max-sm:mb-[75px]" headingText="OG PUMPIONS" />
                 <div className='flex max-md:hidden flex-wrap justify-center gap-x-[73px] gap-y-[45px]'>
                     {OGPUMPIONS_LIST.map((item, index) => (
                         <div key={index}>
@@ -43,7 +43,7 @@ function OgPumpions() {
                     >
                         {OGPUMPIONS_LIST.map((item, index) => (
                             <SwiperSlide key={index} className="w-full mx-auto duration-300 ease-linear bg-cover bg-center !flex !flex-col !justify-center !items-center hover:text-white">  
-                                <div className="w-full group mx-auto flex items-center justify-cente flex-col max-w-[278px] pt-[29px]">
+                                <div className="w-full group mx-auto flex items-center justify-cente flex-col max-w-[278px]">
                                 <Image src={item.image} alt='image' width={226} height={208} />
                             <p className='leading-[202%] mt-[31px] text-white text-2xl text-center'>{item.title}</p>
                             <p className='leading-[202%] text-base text-white/70 text-center'>{item.work}</p>
@@ -60,7 +60,7 @@ function OgPumpions() {
                         ))}
                     </Swiper>
                     </div>
-                <CustomButton buttonText="WE ARE HIRING"/>
+                <CustomButton buttonClass="max-lg:!mt-[51px] max-md:!mt-7" buttonText="WE ARE HIRING"/>
             </div>
         </div>
     )

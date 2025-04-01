@@ -78,7 +78,18 @@ export const FAQS_LIST = [
 ];
 
 export const FOOTER_MEDIA_LIST = [
-    <FooterDIscordIcon/>, <FooterTwitterIcon/>, <FooterMeIcon/>
+    {
+        item: <FooterDIscordIcon/> ,
+        link:"https://discord.com/"
+    },
+    {
+        item: <FooterTwitterIcon/> ,
+        link:"https://twitter.com/"
+    },
+    {
+        item: <FooterMeIcon/> ,
+        link:"https://magiceden.io/"
+    }
 ]
 
 export const FAMILIAR_FIRST_LIST = [

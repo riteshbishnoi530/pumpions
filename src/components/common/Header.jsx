@@ -40,14 +40,14 @@ const Header = () => {
                     <div className='md:hidden flex gap-2'>
                         <Link target='_blank' className='hover:scale-110 duration-300 ease-in-out' href="https://discord.com/"><DiscordIcon /> </Link>
                         <Link target='_blank' className='hover:scale-110 duration-300 ease-in-out' href="https://twitter.com/"><TwitterIcon /> </Link>
-                        <Link target='_blank' className='hover:scale-110 duration-300 ease-in-out' href="https://www.meetup.com/"><Me /> </Link>
+                        <Link target='_blank' className='hover:scale-110 duration-300 ease-in-out' href="https://magiceden.io/"><Me /> </Link>
                     </div>
                 </div>
                 </div>
                 <div className='max-md:hidden relative z-1 max-lg:ml-auto flex gap-2'>
                     <Link target='_blank' className='hover:scale-110 transition-all duration-300 ease-in-out' href="https://discord.com/"><DiscordIcon /> </Link>
                     <Link target='_blank' className='hover:scale-110 transition-all duration-300 ease-in-out' href="https://twitter.com/"><TwitterIcon /> </Link>
-                    <Link target='_blank' className='hover:scale-110 transition-all duration-300 ease-in-out' href="https://www.meetup.com/"><Me /> </Link>
+                    <Link target='_blank' className='hover:scale-110 transition-all duration-300 ease-in-out' href="https://magiceden.io/"><Me /> </Link>
                 </div>
                 <div onClick={toggleSidebar} className='z-[15] flex-col gap-[7px] max-md:gap-[6px] ml-9 lg:hidden flex'>
                     <span className={`${open ? 'w-[42px] max-md:w-[30px] h-[5px] max-md:h-[3px] bg-black rotate-45 translate-y-3 duration-300 ease-linear rounded' : 'w-[42px] max-md:w-[30px] h-[5px] max-md:h-[3px] bg-black duration-300 ease-linear'}`}></span>
