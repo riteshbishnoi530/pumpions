@@ -20,7 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-grey" data-new-gr-c-s-check-loaded="14.1229.0" data-gr-ext-installed="">
+      <body className="bg-grey" suppressHydrationWarning>
         {children}
       </body>
     </html>
