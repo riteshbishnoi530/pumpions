@@ -1,4 +1,4 @@
-import { FooterDIscordIcon, FooterMeIcon, FooterTwitterIcon } from "./icons";
+import { FooterDIscordIcon, FooterMagicedenIcon, FooterTwitterIcon } from "./icons";
 
 export const HEADER_LIST = [
     {
@@ -87,7 +87,7 @@ export const FOOTER_MEDIA_LIST = [
         link:"https://twitter.com/"
     },
     {
-        item: <FooterMeIcon/> ,
+        item: <FooterMagicedenIcon/> ,
         link:"https://magiceden.io/"
     }
 ]

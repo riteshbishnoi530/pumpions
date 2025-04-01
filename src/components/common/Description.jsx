@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Description({CustomDescription, descriptionClass}) {
+function Description({text, descriptionClass}) {
   return (
-        <p className={`text-sm text-white leading-[229%] uppercase ${descriptionClass}`}>{CustomDescription}</p>
+        <p className={`text-sm text-white leading-[229%] uppercase ${descriptionClass}`}>{text}</p>
 )
 }
 

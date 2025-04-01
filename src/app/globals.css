@@ -21,10 +21,20 @@
   }
 }
 
+@media (max-width:640.98px) {
+  .icons svg{
+   width: 16px !important;
+  }
+}
+
 .rfm-marquee{
   min-width: fit-content !important;
 }
 
 .rfm-marquee-container{
   gap: 26px ;
+}
+
+.swiper-pagination-bullet-active{
+  background:white !important;
 }
