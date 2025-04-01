@@ -13,7 +13,7 @@ import "swiper/css/pagination";
 
 function OgPumpions() {
     return (
-        <div id='team' className='-mt-0.5 bg-grey px-4'>
+        <div id='team' className='-mt-0.5 bg-grey'>
             <div className='max-w-[1140px] mx-auto'>
                 <Heading headingClass="mb-[79px]" headingText="OG PUMPIONS" />
                 <div className='flex max-md:hidden flex-wrap justify-center gap-x-[73px] gap-y-[45px]'>
@@ -23,10 +23,10 @@ function OgPumpions() {
                             <p className='leading-[202%] mt-[31px] text-white text-2xl text-center'>{item.title}</p>
                             <p className='leading-[202%] text-base text-white/70 text-center'>{item.work}</p>
                             <div className='flex justify-center gap-[11px] mt-4'>
-                                <Link href="/">
+                                <Link href="https://discord.gg">
                                 <DiscordOrangeIcon/>
                                 </Link>
-                                <Link href="/">
+                                <Link href="https://twitter.com">
                                 <TwitterOrangeIcon/>
                                 </Link>
                             </div>

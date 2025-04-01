@@ -12,7 +12,7 @@ function SunsetClub() {
     return (
         <div className='bg-grey pt-[70px]'>
             <p className='text-xl text-white leading-[204%] px-4 text-center pt-4'>Community + Funding + Sunset</p>
-            <Heading headingClass="max-xl:max-w-[700px] px-4 max-md:max-w-[500px] mx-auto" headingText="SUNSET CLUB MEMBERSHIP PERKS" />
+            <Heading headingClass="max-xl:max-w-[700px] px-4 max-md:max-w-[500px] mx-auto !mt-[20px] max-sm:!mt-3" headingText="SUNSET CLUB MEMBERSHIP PERKS" />
             <div className='pt-[125px] max-xl:pt-6'>
                 <div className='max-w-[1440px] flex gap-[29px] max-xl:flex-col mx-auto xl:pr-4'>
                     <Image className=' max-w-[892px] max-[1310px]:max-w-[850px] max-xl:mx-auto w-full' src="/assets/images/sunset-club.webp" alt='sunset' width={892} height={446} />
@@ -37,7 +37,7 @@ function SunsetClub() {
                     >
                         {SUNSET_CLUB_LIST.map((item, index) => (
                             <SwiperSlide key={index} className="w-full mx-auto min-h-[307px] max-h-[307px] duration-300 ease-linear bg-cover bg-center !flex !flex-col !justify-center !items-center hover:text-white">  
-                                <div className="w-full group mx-auto relative flex items-center justify-cente flex-col max-w-[278px] min-h-[307px] pt-[29px]">
+                                <div className="w-full group px-9 mx-auto relative flex items-center justify-cente flex-col max-w-[278px] min-h-[307px] pt-[29px]">
                                 <Image className='absolute z-1 left-0 top-0 w-full h-full' src="/assets/images/sunset-club-card.webp" alt='bg' width={278} height={307} />
                                 <Image className='absolute z-0 group-hover:z-1 transition-all duration-500 ease-linear left-0 top-0 w-full h-full' src="/assets/images/orange-card.webp" alt='bg' width={181} height={181} />
 

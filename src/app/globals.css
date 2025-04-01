@@ -7,10 +7,11 @@
 }
 
 
-@theme inline {
+@theme{
   --color-grey:#28424F;
   --color-dark-orange:#E8770E;
   --color-orange:#FCA32B;
+  --color-yellow:#FFEC37;
 }
 
 @media (max-width:640.98px) {

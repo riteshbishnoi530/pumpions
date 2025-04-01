@@ -18,7 +18,7 @@ export const HEADER_LIST = [
         link: "#team"
     },
     {
-        item: 'FAQs',
+        item: 'FAQ',
         link: "#faq"
     }
 ]
